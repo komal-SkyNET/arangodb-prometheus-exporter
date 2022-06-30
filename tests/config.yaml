@@ -1,0 +1,28 @@
+APP:
+  arango:
+    username: 'root'
+    endpoint: 'http://127.0.0.1:8530'
+    max_retries: 0
+  port: 9102
+  scrape_interval_secs: 0.00001
+
+LOGGING:
+  version: 1
+  root:
+    level: INFO
+    handlers: [console]
+  loggers:
+    source:
+      level: DEBUG
+      handlers: [console]
+      propagate: false
+
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: root
+      level: NOTSET
+      stream: ext://sys.stdout
+  formatters:
+    root:
+      format: "[%(asctime)s] %(levelname)s arangodb-prometheus-exporter %(message)s (%(name)s)"

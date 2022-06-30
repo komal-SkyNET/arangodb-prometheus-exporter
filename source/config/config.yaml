@@ -1,0 +1,33 @@
+APP:
+  arango:
+    username: 'root'
+    # endpoint: 'http://host.docker.internal:8529'
+    endpoint: 'http://127.0.0.1:8529'
+    max_retries: 0
+  port: 9101
+  scrape_interval_secs: 2
+
+LOGGING:
+  version: 1
+  root:
+    level: DEBUG
+    handlers: [console]
+  loggers:
+    gunicorn:
+      level: INFO
+      handlers: [console]
+      propagate: false
+    source:
+      level: DEBUG
+      handlers: [console]
+      propagate: false
+
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: root
+      level: NOTSET
+      stream: ext://sys.stdout
+  formatters:
+    root:
+      format: "[%(asctime)s] %(levelname)s arangodb-prometheus-exporter %(message)s (%(name)s)"

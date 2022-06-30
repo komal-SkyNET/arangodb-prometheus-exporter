@@ -1,0 +1,246 @@
+# HELP arangodb_last_leader_tick Last tick received form arangodb leader
+# TYPE arangodb_last_leader_tick gauge
+arangodb_last_leader_tick 6.049875e+06
+# HELP arangodb_last_follower_tick Last tick received form arangodb follower
+# TYPE arangodb_last_follower_tick gauge
+arangodb_last_follower_tick 6.049866e+06
+# HELP arangodb_up State of arango DB
+# TYPE arangodb_up gauge
+arangodb_up 1.0
+# HELP arangodb_is_leader Is the DB leader
+# TYPE arangodb_is_leader gauge
+arangodb_is_leader 1.0
+# HELP arangodb_enabled
+# TYPE arangodb_enabled gauge
+arangodb_enabled 1.0
+# HELP arangodb_numberOfThreadsCurrent
+# TYPE arangodb_numberOfThreadsCurrent gauge
+arangodb_numberOfThreadsCurrent 43.0
+# HELP arangodb_numberOfThreadsPercentChange
+# TYPE arangodb_numberOfThreadsPercentChange gauge
+arangodb_numberOfThreadsPercentChange 0.0
+# HELP arangodb_virtualSizeCurrent
+# TYPE arangodb_virtualSizeCurrent gauge
+arangodb_virtualSizeCurrent 4.220772352e+09
+# HELP arangodb_virtualSizePercentChange
+# TYPE arangodb_virtualSizePercentChange gauge
+arangodb_virtualSizePercentChange 0.0
+# HELP arangodb_residentSizeCurrent
+# TYPE arangodb_residentSizeCurrent gauge
+arangodb_residentSizeCurrent 1.595600896e+09
+# HELP arangodb_residentSizePercent
+# TYPE arangodb_residentSizePercent gauge
+arangodb_residentSizePercent 0.04756175075630987
+# HELP arangodb_asyncPerSecondCurrent
+# TYPE arangodb_asyncPerSecondCurrent gauge
+arangodb_asyncPerSecondCurrent 0.0
+# HELP arangodb_asyncPerSecondPercentChange
+# TYPE arangodb_asyncPerSecondPercentChange gauge
+arangodb_asyncPerSecondPercentChange 0.0
+# HELP arangodb_syncPerSecondCurrent
+# TYPE arangodb_syncPerSecondCurrent gauge
+arangodb_syncPerSecondCurrent 2.2996498688682894
+# HELP arangodb_syncPerSecondPercentChange
+# TYPE arangodb_syncPerSecondPercentChange gauge
+arangodb_syncPerSecondPercentChange 0.21051762989181574
+# HELP arangodb_clientConnectionsCurrent
+# TYPE arangodb_clientConnectionsCurrent gauge
+arangodb_clientConnectionsCurrent 29.0
+# HELP arangodb_clientConnectionsPercentChange
+# TYPE arangodb_clientConnectionsPercentChange gauge
+arangodb_clientConnectionsPercentChange 0.20833333333333334
+# HELP arangodb_physicalMemory
+# TYPE arangodb_physicalMemory gauge
+arangodb_physicalMemory 3.3547984896e+010
+# HELP arangodb_nextStart
+# TYPE arangodb_nextStart gauge
+arangodb_nextStart 1.5826865696400163e+09
+# HELP arangodb_waitFor
+# TYPE arangodb_waitFor gauge
+arangodb_waitFor 8.145682573318481
+# HELP arangodb_numberOfThreads15M
+# TYPE arangodb_numberOfThreads15M gauge
+arangodb_numberOfThreads15M 43.0
+# HELP arangodb_numberOfThreads15MPercentChange
+# TYPE arangodb_numberOfThreads15MPercentChange gauge
+arangodb_numberOfThreads15MPercentChange 0.0
+# HELP arangodb_virtualSize15M
+# TYPE arangodb_virtualSize15M gauge
+arangodb_virtualSize15M 4.222967447912088e+09
+# HELP arangodb_virtualSize15MPercentChange
+# TYPE arangodb_virtualSize15MPercentChange gauge
+arangodb_virtualSize15MPercentChange -0.01009868931213248
+# HELP arangodb_asyncPerSecond15M
+# TYPE arangodb_asyncPerSecond15M gauge
+arangodb_asyncPerSecond15M 0.0
+# HELP arangodb_asyncPerSecond15MPercentChange
+# TYPE arangodb_asyncPerSecond15MPercentChange gauge
+arangodb_asyncPerSecond15MPercentChange 0.0
+# HELP arangodb_syncPerSecond15M
+# TYPE arangodb_syncPerSecond15M gauge
+arangodb_syncPerSecond15M 1.8964135200236822
+# HELP arangodb_syncPerSecond15MPercentChange
+# TYPE arangodb_syncPerSecond15MPercentChange gauge
+arangodb_syncPerSecond15MPercentChange -0.007468755466732942
+# HELP arangodb_clientConnections15M
+# TYPE arangodb_clientConnections15M gauge
+arangodb_clientConnections15M 26.0
+# HELP arangodb_clientConnections15MPercentChange
+# TYPE arangodb_clientConnections15MPercentChange gauge
+arangodb_clientConnections15MPercentChange 0.0016934801016088
+# HELP arangodb_time
+# TYPE arangodb_time gauge
+arangodb_time 1.5826865716407876e+09
+# HELP arangodb_system_minorPageFaults
+# TYPE arangodb_system_minorPageFaults gauge
+arangodb_system_minorPageFaults 3.2428835e+07
+# HELP arangodb_system_majorPageFaults
+# TYPE arangodb_system_majorPageFaults gauge
+arangodb_system_majorPageFaults 10.0
+# HELP arangodb_system_userTime
+# TYPE arangodb_system_userTime gauge
+arangodb_system_userTime 2570.35
+# HELP arangodb_system_systemTime
+# TYPE arangodb_system_systemTime gauge
+arangodb_system_systemTime 2437.25
+# HELP arangodb_system_numberOfThreads
+# TYPE arangodb_system_numberOfThreads gauge
+arangodb_system_numberOfThreads 43.0
+# HELP arangodb_system_residentSize
+# TYPE arangodb_system_residentSize gauge
+arangodb_system_residentSize 1.596030976e+09
+# HELP arangodb_system_residentSizePercent
+# TYPE arangodb_system_residentSizePercent gauge
+arangodb_system_residentSizePercent 0.04757457060231055
+# HELP arangodb_system_virtualSize
+# TYPE arangodb_system_virtualSize gauge
+arangodb_system_virtualSize 4.220772352e+09
+# HELP arangodb_client_httpConnections
+# TYPE arangodb_client_httpConnections gauge
+arangodb_client_httpConnections 33.0
+# HELP arangodb_client_connectionTime_sum
+# TYPE arangodb_client_connectionTime_sum gauge
+arangodb_client_connectionTime_sum 0.0
+# HELP arangodb_client_connectionTime_count
+# TYPE arangodb_client_connectionTime_count gauge
+arangodb_client_connectionTime_count 0.0
+# HELP arangodb_client_totalTime_sum
+# TYPE arangodb_client_totalTime_sum gauge
+arangodb_client_totalTime_sum 2044.7523128986359
+# HELP arangodb_client_totalTime_count
+# TYPE arangodb_client_totalTime_count gauge
+arangodb_client_totalTime_count 1.251435e+06
+# HELP arangodb_client_requestTime_sum
+# TYPE arangodb_client_requestTime_sum gauge
+arangodb_client_requestTime_sum 1956.3139114379883
+# HELP arangodb_client_requestTime_count
+# TYPE arangodb_client_requestTime_count gauge
+arangodb_client_requestTime_count 1.251435e+06
+# HELP arangodb_client_queueTime_sum
+# TYPE arangodb_client_queueTime_sum gauge
+arangodb_client_queueTime_sum 0.0
+# HELP arangodb_client_queueTime_count
+# TYPE arangodb_client_queueTime_count gauge
+arangodb_client_queueTime_count 0.0
+# HELP arangodb_client_ioTime_sum
+# TYPE arangodb_client_ioTime_sum gauge
+arangodb_client_ioTime_sum 88.43840146064758
+# HELP arangodb_client_ioTime_count
+# TYPE arangodb_client_ioTime_count gauge
+arangodb_client_ioTime_count 1.251435e+06
+# HELP arangodb_client_bytesSent_sum
+# TYPE arangodb_client_bytesSent_sum gauge
+arangodb_client_bytesSent_sum 8.06557514e+08
+# HELP arangodb_client_bytesSent_count
+# TYPE arangodb_client_bytesSent_count gauge
+arangodb_client_bytesSent_count 1.251435e+06
+# HELP arangodb_client_bytesReceived_sum
+# TYPE arangodb_client_bytesReceived_sum gauge
+arangodb_client_bytesReceived_sum 3.53962662e+08
+# HELP arangodb_client_bytesReceived_count
+# TYPE arangodb_client_bytesReceived_count gauge
+arangodb_client_bytesReceived_count 1.251435e+06
+# HELP arangodb_http_requestsTotal
+# TYPE arangodb_http_requestsTotal gauge
+arangodb_http_requestsTotal 1.273964e+06
+# HELP arangodb_http_requestsAsync
+# TYPE arangodb_http_requestsAsync gauge
+arangodb_http_requestsAsync 14.0
+# HELP arangodb_http_requestsGet
+# TYPE arangodb_http_requestsGet gauge
+arangodb_http_requestsGet 1.019386e+06
+# HELP arangodb_http_requestsHead
+# TYPE arangodb_http_requestsHead gauge
+arangodb_http_requestsHead 0.0
+# HELP arangodb_http_requestsPost
+# TYPE arangodb_http_requestsPost gauge
+arangodb_http_requestsPost 3780.0
+# HELP arangodb_http_requestsPut
+# TYPE arangodb_http_requestsPut gauge
+arangodb_http_requestsPut 250752.0
+# HELP arangodb_http_requestsPatch
+# TYPE arangodb_http_requestsPatch gauge
+arangodb_http_requestsPatch 4.0
+# HELP arangodb_http_requestsDelete
+# TYPE arangodb_http_requestsDelete gauge
+arangodb_http_requestsDelete 42.0
+# HELP arangodb_http_requestsOptions
+# TYPE arangodb_http_requestsOptions gauge
+arangodb_http_requestsOptions 0.0
+# HELP arangodb_http_requestsOther
+# TYPE arangodb_http_requestsOther gauge
+arangodb_http_requestsOther 0.0
+# HELP arangodb_server_uptime
+# TYPE arangodb_server_uptime gauge
+arangodb_server_uptime 693478.2349233627
+# HELP arangodb_server_physicalMemory
+# TYPE arangodb_server_physicalMemory gauge
+arangodb_server_physicalMemory 3.3547984896e+010
+# HELP arangodb_server_v8Context_available
+# TYPE arangodb_server_v8Context_available gauge
+arangodb_server_v8Context_available 1.0
+# HELP arangodb_server_v8Context_busy
+# TYPE arangodb_server_v8Context_busy gauge
+arangodb_server_v8Context_busy 0.0
+# HELP arangodb_server_v8Context_dirty
+# TYPE arangodb_server_v8Context_dirty gauge
+arangodb_server_v8Context_dirty 0.0
+# HELP arangodb_server_v8Context_free
+# TYPE arangodb_server_v8Context_free gauge
+arangodb_server_v8Context_free 1.0
+# HELP arangodb_server_v8Context_max
+# TYPE arangodb_server_v8Context_max gauge
+arangodb_server_v8Context_max 64.0
+# HELP arangodb_server_threads_scheduler_threads
+# TYPE arangodb_server_threads_scheduler_threads gauge
+arangodb_server_threads_scheduler_threads 2.0
+# HELP arangodb_server_threads_in_progress
+# TYPE arangodb_server_threads_in_progress gauge
+arangodb_server_threads_in_progress 1.0
+# HELP arangodb_server_threads_queued
+# TYPE arangodb_server_threads_queued gauge
+arangodb_server_threads_queued 1.0
+# HELP arangodb_server_threads_current_fifo1
+# TYPE arangodb_server_threads_current_fifo1 gauge
+arangodb_server_threads_current_fifo1 0.0
+# HELP arangodb_server_threads_fifo1_size
+# TYPE arangodb_server_threads_fifo1_size gauge
+arangodb_server_threads_fifo1_size 1.048576e+06
+# HELP arangodb_server_threads_current_fifo2
+# TYPE arangodb_server_threads_current_fifo2 gauge
+arangodb_server_threads_current_fifo2 0.0
+# HELP arangodb_server_threads_fifo2_size
+# TYPE arangodb_server_threads_fifo2_size gauge
+arangodb_server_threads_fifo2_size 4096.0
+# HELP arangodb_server_threads_current_fifo3
+# TYPE arangodb_server_threads_current_fifo3 gauge
+arangodb_server_threads_current_fifo3 0.0
+# HELP arangodb_server_threads_fifo3_size
+# TYPE arangodb_server_threads_fifo3_size gauge
+arangodb_server_threads_fifo3_size 4096.0
+# HELP arangodb_error
+# TYPE arangodb_error gauge
+arangodb_error 0.0
+# HELP arangodb_code
+# TYPE arangodb_code gauge
+arangodb_code 200.0

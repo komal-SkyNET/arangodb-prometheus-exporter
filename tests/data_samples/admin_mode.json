@@ -1,0 +1,6 @@
+{
+  "error": true,
+  "code": 404,
+  "errorNum": 404,
+  "errorMessage": "unknown path '/_admin/mode'"
+}

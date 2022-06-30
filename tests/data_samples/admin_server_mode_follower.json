@@ -1,0 +1,6 @@
+{
+    "error": true,
+    "errorNum": 1496,
+    "errorMessage": "not a leader",
+    "code": 503
+}

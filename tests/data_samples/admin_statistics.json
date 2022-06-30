@@ -1,0 +1,139 @@
+{
+    "time": 1582593519.2261305,
+    "enabled": true,
+    "system": {
+      "minorPageFaults": 27728822,
+      "majorPageFaults": 9,
+      "userTime": 2201.97,
+      "systemTime": 2086.94,
+      "numberOfThreads": 43,
+      "residentSize": 1559453696,
+      "residentSizePercent": 0.04648427322339522,
+      "virtualSize": 4035174400
+    },
+    "client": {
+      "httpConnections": 18,
+      "connectionTime": {
+        "sum": 0,
+        "count": 0,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "totalTime": {
+        "sum": 1737.8300065994263,
+        "count": 1073929,
+        "counts": [
+          1006600,
+          67324,
+          4,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "requestTime": {
+        "sum": 1661.9261674880981,
+        "count": 1073929,
+        "counts": [
+          1007741,
+          66185,
+          3,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "queueTime": {
+        "sum": 0,
+        "count": 0,
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "ioTime": {
+        "sum": 75.90383911132812,
+        "count": 1073929,
+        "counts": [
+          1073928,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "bytesSent": {
+        "sum": 687778941,
+        "count": 1073929,
+        "counts": [
+          254941,
+          566793,
+          252133,
+          20,
+          2,
+          40
+        ]
+      },
+      "bytesReceived": {
+        "sum": 303662891,
+        "count": 1073929,
+        "counts": [
+          761284,
+          312398,
+          247,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "http": {
+      "requestsTotal": 1096458,
+      "requestsAsync": 14,
+      "requestsGet": 880676,
+      "requestsHead": 0,
+      "requestsPost": 3772,
+      "requestsPut": 211967,
+      "requestsPatch": 4,
+      "requestsDelete": 39,
+      "requestsOptions": 0,
+      "requestsOther": 0
+    },
+    "server": {
+      "uptime": 600425.8202431202,
+      "physicalMemory": 33547984896,
+      "v8Context": {
+        "available": 1,
+        "busy": 0,
+        "dirty": 0,
+        "free": 1,
+        "max": 64
+      },
+      "threads": {
+        "scheduler-threads": 2,
+        "in-progress": 1,
+        "queued": 1,
+        "current-fifo1": 0,
+        "fifo1-size": 1048576,
+        "current-fifo2": 0,
+        "fifo2-size": 4096,
+        "current-fifo3": 0,
+        "fifo3-size": 4096
+      }
+    },
+    "error": false,
+    "code": 200
+  }

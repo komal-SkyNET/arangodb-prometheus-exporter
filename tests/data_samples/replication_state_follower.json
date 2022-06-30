@@ -1,0 +1,15 @@
+{
+    "state": {
+      "running": true,
+      "lastLogTick": "3366036",
+      "lastUncommittedLogTick": "3366036",
+      "totalEvents": 3366036,
+      "time": "2020-02-14T00:16:45Z"
+    },
+    "server": {
+      "version": "3.4.7",
+      "serverId": "173126671492940",
+      "engine": "rocksdb"
+    },
+    "clients": []
+  }
